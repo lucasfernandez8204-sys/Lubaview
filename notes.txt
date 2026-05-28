@@ -1,3 +1,3 @@
 Compile with:
 
-gcc src/main.c src/png.c -o build/pngviewer.exe -I include -I lib/SDL3-3.4.4/x86_64-w64-mingw32/include -L lib -L lib/SDL3-3.4.4/lib -lz -lSDL3
+gcc src/main.c src/png.c src/app.c -o build/pngviewer.exe -I include -I lib/SDL3-3.4.4/x86_64-w64-mingw32/include -L lib -L lib/SDL3-3.4.4/lib -lz -lSDL3
